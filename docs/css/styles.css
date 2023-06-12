@@ -555,6 +555,19 @@ request page
     }
 }
 
+.service-section ul {
+    list-style-type: disc;
+}
+
+.service-section ul li::before {
+    content: "\f00c";
+    /* this is the Unicode for FontAwesome's check icon */
+    font-family: 'FontAwesome';
+    display: inline-block;
+    margin-right: 10px;
+    /* space between the icon and the list item text */
+}
+
 /*
 request page end
 */
